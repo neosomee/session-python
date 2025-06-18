@@ -59,4 +59,4 @@ try:
 except SyntaxError as e:
     print("Синтаксическая ошибка:", e)
 except ValueError as e:
-    print("Ошибка значения:", e)
+    print("Отрицательное число:", e)
